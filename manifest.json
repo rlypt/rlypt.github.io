@@ -1,0 +1,23 @@
+{
+    "name": "我的便签板 PWA", // 应用全名
+    "short_name": "便签板",   // 桌面图标下显示的名称
+    "description": "一个简单的离线便签板应用", // 应用描述
+    "start_url": "/",          // 应用启动时的起始页面
+    "display": "standalone",   // 显示模式：standalone会让它看起来像一个独立的应用，没有浏览器地址栏
+    "background_color": "#f4f4f4", // 启动时的背景颜色
+    "theme_color": "#333333",       // 浏览器工具栏的主题色
+    "icons": [
+        {
+            "src": "icon-192.png", // 192x192像素的图标，请确保有这个图片文件
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "icon-512.png", // 512x512像素的图标，用于更多场景
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
